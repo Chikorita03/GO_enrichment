@@ -1,0 +1,2 @@
+# GO_enrichment
+This project performs Gene Ontology (GO) enrichment analysis on genes identified by searching for a transcription factor binding motif (GCGC..GCGC) in promoter regions. Promoter sequences were extracted using bedtools, and motif search was performed using EMBOSS (fuzznuc). The resulting gene list was analyzed using clusterProfiler in R to identify enriched biological processes. The results highlight functions related to cell cycle regulation and DNA repair, and are visualized using a dot plot.
